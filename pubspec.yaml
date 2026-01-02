@@ -1,0 +1,47 @@
+name: boletazo
+description: "A new Flutter project."
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  sqflite: ^2.2.8+1   
+  path: ^1.8.3
+  intl: ^0.20.2
+  sqflite_common_ffi: ^2.4.0
+  pdf: ^3.10.6
+  printing: ^5.12.0
+  shared_preferences: ^2.2.2
+  
+  
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.4
+
+
+  flutter_lints: ^6.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "img/4.png" 
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - img/
+
+  
